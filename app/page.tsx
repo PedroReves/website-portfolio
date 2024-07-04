@@ -8,9 +8,11 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
-      <Stack />
-      <Projects />
+      <main className="bg-bg_black">
+        <Hero />
+        <Stack />
+        <Projects />
+      </main>
       <Footer />
     </>
   );
