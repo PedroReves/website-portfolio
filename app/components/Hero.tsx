@@ -24,7 +24,7 @@ export default function Hero() {
 				</span>
 			</h1>
 			<p className="font-light text-xl text-white py-6">
-				I'm a passionate developer skilled in both frontend and backend. I love
+				I am a passionate developer skilled in both frontend and backend. I love
 				<br />
 				creating either user friendly websites, and robust backend!
 			</p>
