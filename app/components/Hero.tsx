@@ -18,7 +18,7 @@ export default function Hero() {
 				<span className="bg-clip-text text-transparent bg-gradient-to-r from-[#8176FF] to-[#4D4799]">
 					Pedro Reves
 				</span>
-				<br /> and I'm a{" "}
+				<br /> and I am a{" "}
 				<span className="bg-clip-text text-transparent bg-gradient-to-r from-[#8176FF] to-[#4D4799]">
 					FullStack Developer
 				</span>
@@ -30,16 +30,16 @@ export default function Hero() {
 			</p>
 			<div className="flex text-white items-center justify-center gap-x-6">
 				<button className="flex items-center bg-bg_purple py-2 px-3 rounded-lg text-white text-base font-bold hover:bg-[#645BD0]">
-					Contact Me
+					<a href="mailto:pedroreves11@gmail.com">Contact Me</a>
 					<span className="ml-2">
-						<MdOutlineEmail size={25} />
-					</span>
+						<a href="mailto:pedroreves11@gmail.com"><MdOutlineEmail size={25} /></a>					
+                    </span>
 				</button>
 				<span className="bg-[#2C2C2C] p-2 rounded-full cursor-pointer hover:bg-[#212121]">
-					<FaGithub size={25} />
+					<a href="https://github.com/PedroReves"><FaGithub size={25} /></a>
 				</span>
 				<span className="bg-[#2C2C2C] p-2 rounded-full cursor-pointer hover:bg-[#212121]">
-					<FaInstagram size={25} />
+					<a href="https://instagram.com/pedroreves_"><FaInstagram size={25} /></a>
 				</span>
 			</div>
 		</section>
